@@ -1,0 +1,13 @@
+a:link{
+    color: greenyellow;
+    font-weight:bold;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    color: pink;
+}

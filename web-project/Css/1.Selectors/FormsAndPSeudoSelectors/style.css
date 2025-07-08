@@ -1,0 +1,12 @@
+:required{
+    outline: 2px solid red;
+}
+:optional{
+    outline: 2px solid blue;
+}
+:disabled{
+    outline: 2px solid yellow;
+}
+:enabled{
+    outline: 2px solid green;
+}

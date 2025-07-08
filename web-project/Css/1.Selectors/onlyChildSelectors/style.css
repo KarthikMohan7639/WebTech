@@ -1,0 +1,9 @@
+strong:only-child{
+    color: red;
+}
+h2:only-of-type{
+    color: blue;
+}
+p:only-of-type{
+    color: green;
+}

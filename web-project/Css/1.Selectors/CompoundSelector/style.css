@@ -1,0 +1,13 @@
+p.myclass{
+    color: red;
+}
+ul.myclass{
+    color: blue;
+}
+p#myID{
+    color: aquamarine;
+}
+.myclass{
+    color: orange;
+    font-weight:bolder;
+}

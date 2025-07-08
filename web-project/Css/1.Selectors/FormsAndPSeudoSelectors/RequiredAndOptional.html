@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:requiredAndOptional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+  <h1>A contact form</h1>
+  <p>Here's the blah blah at the top of the form that no one reads.</p>
+  <p contenteditable>We could always allow people to customize this text, though!</p>
+  <div class="row">
+    <label for="name">Your name: </label>
+    <input type="text" id="name" required>
+  </div>
+  <div class="row">
+    <label for="email">Your email: </label>
+    <input type="email" id="email" disabled>
+  </div>
+  <div class="row">
+    <label for="phone">Phone number: </label>
+    <input type="tel" id="phone">
+  </div>
+  <p>Best time to reach you?</p>
+  <label class="radiorow">
+    <input type="radio" name="time" value="morning" checked>Morning
+  </label>
+  <label class="radiorow">
+    <input type="radio" name="time" value="midday">Mid-day
+  </label>
+  <label class="radiorow">
+    <input type="radio" name="time" value="night">Night
+  </label>
+  <div class="row">
+    <label for="live">Where do you live?</label>
+    <select id="live">
+      <option selected>Select one...</option>
+      <option value="africa">Africa</option>
+      <option value="antartica">Antartica</option>
+      <option value="asia">Asia</option>
+      <option value="australia">Australia</option>
+      <option value="europe">Europe</option>
+      <option value="northam">North America</option>
+      <option value="southam">South America</option>
+    </select>
+  </div>
+  <textarea readonly rows="5" cols="33">
+Here are the terms and conditions as blah blah read only stuff. Notice you can't type in this box.
+  </textarea>
+  <label class="radiorow">
+    <input type="checkbox" value="terms" checked> I agree to the terms and conditions
+  </label>
+
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>

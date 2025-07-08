@@ -1,0 +1,6 @@
+article > p{
+    color: blueviolet;
+}
+aside p>strong{
+    color: blue;
+}
