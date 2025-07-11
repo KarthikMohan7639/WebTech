@@ -153,6 +153,18 @@ let num3=20
 let num4=10
 console.log(`the  subtraction of ${num3} and ${num4} is ${20-10} `)
  
+ let string='karthik is a male gender'
+ console.log(string.toUpperCase())
+ console.log(string.toLowerCase());
+ console.log(string.indexOf('s'));
+ console.log(string.lastIndexOf('s'));
+ console.log(string.length);
+ console.log(string.trim())
+ console.log(string.replace('is',':'))
+ console.log(string.replaceAll(string,"hello how are you?"))
+let  strarr=string.split(" ")
+console.log(strarr)
+ console.log(string.concat(" ","hello world"))
  
  
 
