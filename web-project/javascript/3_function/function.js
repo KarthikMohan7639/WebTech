@@ -48,3 +48,22 @@ let hello=function(){
     console.log("hello how are you?")
 }
 hello()
+
+let oddEven=function(num){
+    if(num % 2 == 0 ){
+        return "even";
+    }
+    else{
+        return "odd"
+    }
+}
+let resu=oddEven(3)
+console.log(resu);
+
+//4. Arrow function
+let pow=()=>(base,exp){
+    
+    for(let i=1;i<exp;i++){
+        pow*=base;
+    }
+}
