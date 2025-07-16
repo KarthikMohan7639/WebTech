@@ -113,3 +113,11 @@ numbers.forEach((ele)=>{
 });
 
 console.log(arr8);
+
+let mappedArr=numbers.map((ele)=>{
+    return ele+100;
+})
+console.log(mappedArr);
+
+//.reduce()
+//.filter()
