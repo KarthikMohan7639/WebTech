@@ -1,0 +1,26 @@
+# Build directories and artifacts
+todo-server/build/
+todo-client/bin/
+todo-client/obj/
+todo-test-client/bin/
+todo-test-client/obj/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
